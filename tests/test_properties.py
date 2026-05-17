@@ -33,9 +33,9 @@ def test_property_every_word_has_accent_on_first_syllable(quantidade: int) -> No
     for palavra in gerador.gerar_multiplas(quantidade):
         primeira = re.match(rf"^[^{VOGAIS_TODAS}]*[{VOGAIS_TODAS}]", palavra.lower())
         assert primeira is not None, f"No first syllable detected in {palavra!r}"
-        assert any(c in primeira.group() for c in VOGAIS_ACENTUADAS), (
-            f"First syllable of {palavra!r} carries no accent"
-        )
+        assert any(
+            c in primeira.group() for c in VOGAIS_ACENTUADAS
+        ), f"First syllable of {palavra!r} carries no accent"
 
 
 @given(quantidade=st.integers(min_value=1, max_value=30))
@@ -74,9 +74,7 @@ def test_property_adicionar_acento_adds_exactly_one_accent(silaba: str) -> None:
     assert len(resultado) == len(silaba)
 
 
-@given(
-    silaba=st.sampled_from(["pró", "fí", "sô", "bál", "rés", "nhú", "jú", "tê", "drú"])
-)
+@given(silaba=st.sampled_from(["pró", "fí", "sô", "bál", "rés", "nhú", "jú", "tê", "drú"]))
 @settings(max_examples=20, deadline=None)
 def test_property_adicionar_acento_is_idempotent_on_accented(silaba: str) -> None:
     """Invariant: applying adicionar_acento twice is the same as applying it once."""
