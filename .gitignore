@@ -26,11 +26,16 @@ ENV/
 env/
 .venv
 
-# pytest
+# pytest / coverage
 .pytest_cache/
 .coverage
+coverage.xml
 htmlcov/
 .tox/
+
+# Linters / type-checkers
+.ruff_cache/
+.mypy_cache/
 
 # IDE
 .vscode/
@@ -43,7 +48,10 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
+# Claude
+CLAUDE.md
+.claude/
+
 # Imagens (manter egera.png mas ignorar outras)
 *.png
 !egera.png
-
