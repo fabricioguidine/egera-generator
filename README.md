@@ -175,3 +175,5 @@ A suíte cobre geração de palavras, validação de proparoxítonas, acentuaç�
 Distribuído sob a licença MIT. Veja [`LICENSE`](LICENSE).
 </content>
 </invoke>
+
+> Runs on Linux, macOS and Windows — every push is tested on all three via the CI matrix (Python 3.10–3.13).
