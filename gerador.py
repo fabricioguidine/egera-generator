@@ -173,7 +173,7 @@ class GeradorEgera:
         silaba1 = self.adicionar_acento(silaba1)
 
         # Combina as sílabas
-        return silaba1 + silaba2 + silaba3
+        return str(silaba1 + silaba2 + silaba3)
 
     def gerar_multiplas(self, quantidade: int = 10) -> list[str]:
         """
