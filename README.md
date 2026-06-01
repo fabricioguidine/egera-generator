@@ -2,17 +2,7 @@
 
 <img src=".github/assets/banner.svg" alt="egera-generator" width="100%">
 
-[![CI](https://github.com/fabricioguidine/egera-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/fabricioguidine/egera-generator/actions/workflows/ci.yml)
-
-[![codecov](https://codecov.io/gh/fabricioguidine/egera-generator/branch/main/graph/badge.svg)](https://codecov.io/gh/fabricioguidine/egera-generator)
-
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-
-[![Checked with mypy](https://img.shields.io/badge/mypy-checked-blue.svg)](https://mypy-lang.org/)
-
-[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
-
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/fabricioguidine/egera-generator/actions/workflows/ci.yml/badge.svg)](https://github.com/fabricioguidine/egera-generator/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/fabricioguidine/egera-generator/branch/main/graph/badge.svg)](https://codecov.io/gh/fabricioguidine/egera-generator) [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![Checked with mypy](https://img.shields.io/badge/mypy-checked-blue.svg)](https://mypy-lang.org/) [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 </div>
 
